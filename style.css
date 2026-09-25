@@ -1563,3 +1563,27 @@ footer span {
 .cyber-card {
     pointer-events: none;
 }
+/* FORCE SOCIAL BUTTONS TO SHOW */
+
+.hero .social-links {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    z-index: 99999 !important;
+    gap: 12px !important;
+    margin-top: 22px !important;
+}
+
+.hero .social-links a {
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    z-index: 100000 !important;
+    pointer-events: auto !important;
+    color: #ffffff !important;
+    border: 1px solid #283250 !important;
+    padding: 8px 13px !important;
+    border-radius: 30px !important;
+}
