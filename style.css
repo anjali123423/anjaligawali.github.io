@@ -1539,3 +1539,27 @@ footer span {
     }
 
 }
+
+/* FIX SOCIAL LINKS CLICK */
+
+.social-links {
+    position: relative !important;
+    z-index: 9999 !important;
+    pointer-events: auto !important;
+}
+
+.social-links a {
+    position: relative !important;
+    z-index: 10000 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* Decorative elements should not block clicks */
+
+.avatar-glow,
+.glow-circle,
+.security-icon,
+.cyber-card {
+    pointer-events: none;
+}
