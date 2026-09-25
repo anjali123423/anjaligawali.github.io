@@ -1380,3 +1380,22 @@ footer span {
             0 0 75px #00c8ff;
     }
 }
+/* REMOVE OLD PROFILE ELEMENTS */
+.profile-frame {
+    display: none !important;
+}
+
+.glow-circle {
+    display: none !important;
+}
+
+/* Keep only the new cyber avatar */
+.hero-image {
+    position: relative;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
